@@ -11,16 +11,7 @@ function generator() {
   let pronoun = ["the", "our"];
   let adj = ["great", "big"];
   let noun = ["jogger", "racoon"];
-  let siteType = [
-    ".org",
-    // ".gov",
-    // ".com",
-    // ".edu",
-    // ".us",
-    // ".miamicohort",
-    // ".uk",
-    // ".mex",
-  ];
+  let siteType = [".org"];
   console.log("Hello Rigo from the console!");
   for (let i = 0; i < pronoun.length; i++)
     for (let c = 0; c < adj.length; c++)
